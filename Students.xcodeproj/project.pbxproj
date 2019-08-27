@@ -15,10 +15,19 @@
 		A822BBF623155CD3002A0161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A822BBF423155CD3002A0161 /* LaunchScreen.storyboard */; };
 		A822BC0C23155CD3002A0161 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822BC0B23155CD3002A0161 /* StudentsUITests.swift */; };
 		A822BC2023155DB3002A0161 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822BC1F23155DB3002A0161 /* ViewController.swift */; };
-		A89D4121231571070061ABCE /* studentsJson.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A89D4120231571070061ABCE /* studentsJson.rtf */; };
 		A89D41232315714C0061ABCE /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D41222315714C0061ABCE /* AppBuilder.swift */; };
 		A89D4125231572290061ABCE /* StudentsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4124231572290061ABCE /* StudentsBuilder.swift */; };
 		A89D4127231575690061ABCE /* AppBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4126231575690061ABCE /* AppBuilderTests.swift */; };
+		A89D4129231578A40061ABCE /* StudentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4128231578A40061ABCE /* StudentsService.swift */; };
+		A89D412B231578F80061ABCE /* StudentsUnboxDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D412A231578F80061ABCE /* StudentsUnboxDataAdapter.swift */; };
+		A89D412E231579670061ABCE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D412D231579670061ABCE /* Student.swift */; };
+		A89D413023157BA50061ABCE /* StudentsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D412F23157BA50061ABCE /* StudentsInteractor.swift */; };
+		A89D413223157BE70061ABCE /* StudentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D413123157BE70061ABCE /* StudentsPresenter.swift */; };
+		A89D413423157C2D0061ABCE /* StudentsSelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D413323157C2D0061ABCE /* StudentsSelectionManager.swift */; };
+		A89D413623157C790061ABCE /* StudentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D413523157C790061ABCE /* StudentViewModel.swift */; };
+		A89D4138231580940061ABCE /* StudentsUnboxDataAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4137231580940061ABCE /* StudentsUnboxDataAdapterTests.swift */; };
+		A89D413A231582E10061ABCE /* studentsJson.json in Resources */ = {isa = PBXBuildFile; fileRef = A89D4139231582E10061ABCE /* studentsJson.json */; };
+		A89D413C231587560061ABCE /* StudentsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D413B231587560061ABCE /* StudentsInteractorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +63,19 @@
 		A822BC0B23155CD3002A0161 /* StudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUITests.swift; sourceTree = "<group>"; };
 		A822BC0D23155CD3002A0161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A822BC1F23155DB3002A0161 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A89D4120231571070061ABCE /* studentsJson.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = studentsJson.rtf; path = Students/studentsJson.rtf; sourceTree = SOURCE_ROOT; };
 		A89D41222315714C0061ABCE /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
 		A89D4124231572290061ABCE /* StudentsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsBuilder.swift; sourceTree = "<group>"; };
 		A89D4126231575690061ABCE /* AppBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilderTests.swift; sourceTree = "<group>"; };
+		A89D4128231578A40061ABCE /* StudentsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsService.swift; sourceTree = "<group>"; };
+		A89D412A231578F80061ABCE /* StudentsUnboxDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUnboxDataAdapter.swift; sourceTree = "<group>"; };
+		A89D412D231579670061ABCE /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		A89D412F23157BA50061ABCE /* StudentsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsInteractor.swift; sourceTree = "<group>"; };
+		A89D413123157BE70061ABCE /* StudentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsPresenter.swift; sourceTree = "<group>"; };
+		A89D413323157C2D0061ABCE /* StudentsSelectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsSelectionManager.swift; sourceTree = "<group>"; };
+		A89D413523157C790061ABCE /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
+		A89D4137231580940061ABCE /* StudentsUnboxDataAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUnboxDataAdapterTests.swift; sourceTree = "<group>"; };
+		A89D4139231582E10061ABCE /* studentsJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = studentsJson.json; path = Students/studentsJson.json; sourceTree = SOURCE_ROOT; };
+		A89D413B231587560061ABCE /* StudentsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsInteractorTests.swift; sourceTree = "<group>"; };
 		BF2C760BE0546F1357A6BAC8 /* Pods-StudentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentsTests.debug.xcconfig"; path = "Target Support Files/Pods-StudentsTests/Pods-StudentsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E08C1A0E4D3031D4AF6E8B29 /* Pods_StudentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEC239C1B38C807C5F18CA5 /* Pods_Students.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Students.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +146,7 @@
 			children = (
 				A822BC1923155CEA002A0161 /* App */,
 				A822BC1A23155CFF002A0161 /* Scenes */,
+				A89D412C2315794D0061ABCE /* Models */,
 				A89D411F23156E960061ABCE /* Resources */,
 				A822BBEB23155CD0002A0161 /* AppDelegate.swift */,
 				A822BBEF23155CD0002A0161 /* Main.storyboard */,
@@ -142,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				A89D4126231575690061ABCE /* AppBuilderTests.swift */,
+				A89D4137231580940061ABCE /* StudentsUnboxDataAdapterTests.swift */,
+				A89D413B231587560061ABCE /* StudentsInteractorTests.swift */,
 				A822BC0223155CD3002A0161 /* Info.plist */,
 			);
 			path = StudentsTests;
@@ -186,6 +207,8 @@
 		A822BC1C23155D1E002A0161 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A89D4128231578A40061ABCE /* StudentsService.swift */,
+				A89D412A231578F80061ABCE /* StudentsUnboxDataAdapter.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -193,6 +216,10 @@
 		A822BC1D23155D2F002A0161 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				A89D412F23157BA50061ABCE /* StudentsInteractor.swift */,
+				A89D413123157BE70061ABCE /* StudentsPresenter.swift */,
+				A89D413323157C2D0061ABCE /* StudentsSelectionManager.swift */,
+				A89D413523157C790061ABCE /* StudentViewModel.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -208,9 +235,17 @@
 		A89D411F23156E960061ABCE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A89D4120231571070061ABCE /* studentsJson.rtf */,
+				A89D4139231582E10061ABCE /* studentsJson.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A89D412C2315794D0061ABCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A89D412D231579670061ABCE /* Student.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D91A2F34337BFA649B0D58C2 /* Frameworks */ = {
@@ -331,8 +366,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A822BBF623155CD3002A0161 /* LaunchScreen.storyboard in Resources */,
+				A89D413A231582E10061ABCE /* studentsJson.json in Resources */,
 				A822BBF323155CD3002A0161 /* Assets.xcassets in Resources */,
-				A89D4121231571070061ABCE /* studentsJson.rtf in Resources */,
 				A822BBF123155CD0002A0161 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,9 +488,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89D413023157BA50061ABCE /* StudentsInteractor.swift in Sources */,
 				A89D41232315714C0061ABCE /* AppBuilder.swift in Sources */,
 				A89D4125231572290061ABCE /* StudentsBuilder.swift in Sources */,
+				A89D4129231578A40061ABCE /* StudentsService.swift in Sources */,
 				A822BC2023155DB3002A0161 /* ViewController.swift in Sources */,
+				A89D412B231578F80061ABCE /* StudentsUnboxDataAdapter.swift in Sources */,
+				A89D413223157BE70061ABCE /* StudentsPresenter.swift in Sources */,
+				A89D412E231579670061ABCE /* Student.swift in Sources */,
+				A89D413623157C790061ABCE /* StudentViewModel.swift in Sources */,
+				A89D413423157C2D0061ABCE /* StudentsSelectionManager.swift in Sources */,
 				A822BBEC23155CD0002A0161 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +506,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89D4138231580940061ABCE /* StudentsUnboxDataAdapterTests.swift in Sources */,
 				A89D4127231575690061ABCE /* AppBuilderTests.swift in Sources */,
+				A89D413C231587560061ABCE /* StudentsInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
