@@ -175,10 +175,10 @@
 		A822BC1B23155D10002A0161 /* Students */ = {
 			isa = PBXGroup;
 			children = (
+				A89D4124231572290061ABCE /* StudentsBuilder.swift */,
 				A822BC1C23155D1E002A0161 /* Data */,
 				A822BC1D23155D2F002A0161 /* Application */,
 				A822BC1E23155D39002A0161 /* View */,
-				A89D4124231572290061ABCE /* StudentsBuilder.swift */,
 			);
 			path = Students;
 			sourceTree = "<group>";

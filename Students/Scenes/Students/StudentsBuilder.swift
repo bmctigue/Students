@@ -10,7 +10,7 @@ import UIKit
 import Tiguer
 
 enum Students {
-    final class StudentsBuilder: VCBuilder {
+    final class Builder: VCBuilder {
     
         private var title: String
         private var store: StoreProtocol

@@ -20,7 +20,7 @@ enum App {
         init(with window: UIWindow?) {
             self.window = window
             let store = LocalStore("studentsJson")
-            self.builder = Students.StudentsBuilder(with: App.Builder.studentsTitle , store: store)
+            self.builder = Students.Builder(with: App.Builder.studentsTitle , store: store)
         }
         
         func getWindow() -> UIWindow? {
