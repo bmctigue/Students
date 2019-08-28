@@ -19,6 +19,9 @@ enum Students {
         private var store: StoreProtocol
         private lazy var dataAdapter = Students.UnboxDataAdapter<Student>()
         private lazy var service = Students.Service<Student, UnboxDataAdapter>(store, dataAdapter: dataAdapter, cacheKey: Students.Builder.cacheKey)
+        private lazy var presenter = Students.Presenter<Student, Students.ViewModel>([])
+        private lazy var interactor = Students.Interactor<Student, Students.Presenter, Students.Service>(presenter, service: service)
+        private lazy var tableViewController = StudentsTableViewController(with: interactor, presenter: presenter)
         
         init(with title: String, store: StoreProtocol) {
             self.title = title
@@ -27,6 +30,8 @@ enum Students {
         
         func run(completionHandler: (UIViewController) -> Void) {
             let navigationController = UINavigationController()
+            let controller = StudentsViewController(with: tableViewController)
+            navigationController.add(controller)
             completionHandler(navigationController)
         }
     }

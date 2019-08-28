@@ -14,7 +14,13 @@
 		A822BBF323155CD3002A0161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A822BBF223155CD3002A0161 /* Assets.xcassets */; };
 		A822BBF623155CD3002A0161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A822BBF423155CD3002A0161 /* LaunchScreen.storyboard */; };
 		A822BC0C23155CD3002A0161 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822BC0B23155CD3002A0161 /* StudentsUITests.swift */; };
-		A822BC2023155DB3002A0161 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822BC1F23155DB3002A0161 /* ViewController.swift */; };
+		A84F625E2316A2680069085A /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F625C2316A2680069085A /* StudentsViewController.swift */; };
+		A84F625F2316A2680069085A /* StudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84F625D2316A2680069085A /* StudentViewController.xib */; };
+		A84F62622316A3A30069085A /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F62602316A3A30069085A /* StudentsTableViewController.swift */; };
+		A84F62632316A3A30069085A /* StudentsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84F62612316A3A30069085A /* StudentsTableViewController.xib */; };
+		A84F62662316A5210069085A /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F62642316A5210069085A /* StudentTableViewCell.swift */; };
+		A84F62672316A5210069085A /* StudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84F62652316A5210069085A /* StudentTableViewCell.xib */; };
+		A84F62692316A98B0069085A /* StudentsTableViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F62682316A98B0069085A /* StudentsTableViewController+DataSource.swift */; };
 		A89D41232315714C0061ABCE /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D41222315714C0061ABCE /* AppBuilder.swift */; };
 		A89D4125231572290061ABCE /* StudentsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4124231572290061ABCE /* StudentsBuilder.swift */; };
 		A89D4127231575690061ABCE /* AppBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4126231575690061ABCE /* AppBuilderTests.swift */; };
@@ -62,7 +68,13 @@
 		A822BC0723155CD3002A0161 /* StudentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A822BC0B23155CD3002A0161 /* StudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUITests.swift; sourceTree = "<group>"; };
 		A822BC0D23155CD3002A0161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A822BC1F23155DB3002A0161 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A84F625C2316A2680069085A /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		A84F625D2316A2680069085A /* StudentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentViewController.xib; sourceTree = "<group>"; };
+		A84F62602316A3A30069085A /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		A84F62612316A3A30069085A /* StudentsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentsTableViewController.xib; sourceTree = "<group>"; };
+		A84F62642316A5210069085A /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		A84F62652316A5210069085A /* StudentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentTableViewCell.xib; sourceTree = "<group>"; };
+		A84F62682316A98B0069085A /* StudentsTableViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentsTableViewController+DataSource.swift"; sourceTree = "<group>"; };
 		A89D41222315714C0061ABCE /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
 		A89D4124231572290061ABCE /* StudentsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsBuilder.swift; sourceTree = "<group>"; };
 		A89D4126231575690061ABCE /* AppBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilderTests.swift; sourceTree = "<group>"; };
@@ -227,7 +239,13 @@
 		A822BC1E23155D39002A0161 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A822BC1F23155DB3002A0161 /* ViewController.swift */,
+				A84F625C2316A2680069085A /* StudentsViewController.swift */,
+				A84F625D2316A2680069085A /* StudentViewController.xib */,
+				A84F62602316A3A30069085A /* StudentsTableViewController.swift */,
+				A84F62612316A3A30069085A /* StudentsTableViewController.xib */,
+				A84F62642316A5210069085A /* StudentTableViewCell.swift */,
+				A84F62652316A5210069085A /* StudentTableViewCell.xib */,
+				A84F62682316A98B0069085A /* StudentsTableViewController+DataSource.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -365,6 +383,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84F62632316A3A30069085A /* StudentsTableViewController.xib in Resources */,
+				A84F625F2316A2680069085A /* StudentViewController.xib in Resources */,
+				A84F62672316A5210069085A /* StudentTableViewCell.xib in Resources */,
 				A822BBF623155CD3002A0161 /* LaunchScreen.storyboard in Resources */,
 				A89D413A231582E10061ABCE /* studentsJson.json in Resources */,
 				A822BBF323155CD3002A0161 /* Assets.xcassets in Resources */,
@@ -491,11 +512,14 @@
 				A89D413023157BA50061ABCE /* StudentsInteractor.swift in Sources */,
 				A89D41232315714C0061ABCE /* AppBuilder.swift in Sources */,
 				A89D4125231572290061ABCE /* StudentsBuilder.swift in Sources */,
+				A84F62662316A5210069085A /* StudentTableViewCell.swift in Sources */,
 				A89D4129231578A40061ABCE /* StudentsService.swift in Sources */,
-				A822BC2023155DB3002A0161 /* ViewController.swift in Sources */,
+				A84F625E2316A2680069085A /* StudentsViewController.swift in Sources */,
+				A84F62692316A98B0069085A /* StudentsTableViewController+DataSource.swift in Sources */,
 				A89D412B231578F80061ABCE /* StudentsUnboxDataAdapter.swift in Sources */,
 				A89D413223157BE70061ABCE /* StudentsPresenter.swift in Sources */,
 				A89D412E231579670061ABCE /* Student.swift in Sources */,
+				A84F62622316A3A30069085A /* StudentsTableViewController.swift in Sources */,
 				A89D413623157C790061ABCE /* StudentViewModel.swift in Sources */,
 				A89D413423157C2D0061ABCE /* StudentsSelectionManager.swift in Sources */,
 				A822BBEC23155CD0002A0161 /* AppDelegate.swift in Sources */,
