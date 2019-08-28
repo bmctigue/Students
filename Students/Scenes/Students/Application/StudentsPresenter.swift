@@ -25,15 +25,5 @@ extension Students {
             }
             return resultModels
         }
-        
-        override func updatedViewModels(completionHandler: @escaping ([ViewModel]) -> Void) {
-            background.dispatch { [weak self] in
-                if let self = self {
-                    self.main.dispatch {
-                        completionHandler(self.viewModels)
-                    }
-                }
-            }
-        }
     }
 }
