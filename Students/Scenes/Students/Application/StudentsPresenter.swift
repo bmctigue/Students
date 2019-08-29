@@ -12,15 +12,13 @@ import Tiguer
 extension Students {
     final class Presenter<Model, ViewModel>: Tiguer.Presenter<Model, ViewModel> {
         
-        typealias StudentViewModel = Students.ViewModel
-        
         private lazy var favoritesManager = Students.SelectionManager<Student>()
         
         override var baseViewModels: [ViewModel] {
             var resultModels = [ViewModel]()
             for studentModel in models {
                 let model = studentModel as! Student
-                let displayedModel = StudentViewModel(studentId: model.id, firstName: model.firstName, lastName: model.lastName) as! ViewModel
+                let displayedModel = Students.ViewModel(studentId: model.id, firstName: model.firstName, lastName: model.lastName) as! ViewModel
                 resultModels.append(displayedModel)
             }
             return resultModels

@@ -12,13 +12,12 @@ import Unbox
 import Tiguer
 
 extension Students {
-    class UnboxDataAdapter<Model>: Tiguer.DataAdapter<Model> {
+    class UnboxDataAdapter<Model:Unboxable>: Tiguer.DataAdapter<Model> {
         
         override func itemsFromData(_ data: Data) -> Future<DataAdapterResult.Result<Model>> {
             let promise = Promise<DataAdapterResult.Result<Model>>()
             do {
-                let students: [Student] = try unbox(data: data)
-                let models = students.map { $0 as! Model }
+                let models: [Model] = try unbox(data: data)
                 promise.setResult(DataAdapterResult.Result.success(models))
             } catch {
                 promise.setError(DataAdapterError.conversionFailed)
