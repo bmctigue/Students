@@ -21,6 +21,7 @@
 		A84F62662316A5210069085A /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F62642316A5210069085A /* StudentTableViewCell.swift */; };
 		A84F62672316A5210069085A /* StudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84F62652316A5210069085A /* StudentTableViewCell.xib */; };
 		A84F62692316A98B0069085A /* StudentsTableViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F62682316A98B0069085A /* StudentsTableViewController+DataSource.swift */; };
+		A860B5D72317F54A00CE305C /* StudentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860B5D62317F54A00CE305C /* StudentViewModelTests.swift */; };
 		A89D41232315714C0061ABCE /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D41222315714C0061ABCE /* AppBuilder.swift */; };
 		A89D4125231572290061ABCE /* StudentsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4124231572290061ABCE /* StudentsBuilder.swift */; };
 		A89D4127231575690061ABCE /* AppBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D4126231575690061ABCE /* AppBuilderTests.swift */; };
@@ -75,6 +76,7 @@
 		A84F62642316A5210069085A /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
 		A84F62652316A5210069085A /* StudentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentTableViewCell.xib; sourceTree = "<group>"; };
 		A84F62682316A98B0069085A /* StudentsTableViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentsTableViewController+DataSource.swift"; sourceTree = "<group>"; };
+		A860B5D62317F54A00CE305C /* StudentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModelTests.swift; sourceTree = "<group>"; };
 		A89D41222315714C0061ABCE /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
 		A89D4124231572290061ABCE /* StudentsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsBuilder.swift; sourceTree = "<group>"; };
 		A89D4126231575690061ABCE /* AppBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilderTests.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				A89D4126231575690061ABCE /* AppBuilderTests.swift */,
+				A860B5D62317F54A00CE305C /* StudentViewModelTests.swift */,
 				A89D4137231580940061ABCE /* StudentsUnboxDataAdapterTests.swift */,
 				A89D413B231587560061ABCE /* StudentsInteractorTests.swift */,
 				A822BC0223155CD3002A0161 /* Info.plist */,
@@ -530,6 +533,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A860B5D72317F54A00CE305C /* StudentViewModelTests.swift in Sources */,
 				A89D4138231580940061ABCE /* StudentsUnboxDataAdapterTests.swift in Sources */,
 				A89D4127231575690061ABCE /* AppBuilderTests.swift in Sources */,
 				A89D413C231587560061ABCE /* StudentsInteractorTests.swift in Sources */,
